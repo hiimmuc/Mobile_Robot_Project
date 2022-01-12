@@ -6,7 +6,6 @@ import cv2
 import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
-from onnx_engine import *
 from PIL import Image
 
 from utils import *
