@@ -47,10 +47,12 @@ Notice:
 
 3. Training:
 
+Training with pretrained custom weight:
+
 ```python
 $ python train.py --img 416 --batch 16 --epochs 100 --patience 25 --weights path/to/weights.pt --cache --cfg path/to/yolov5/models/ yolov5n.yaml --data path/to/data.yaml
 ```
-
+Training from scratch (COCO weights):
 ```python
 $ python train.py --img 416 --batch 16 --epochs 100 --patience 25 --weights yolov5s.pt --cache --cfg path/to/yolov5/models/ yolov5n.yaml --data path/to/data.yaml
 ```
@@ -60,9 +62,9 @@ Notebook: [Google Colab](https://colab.research.google.com/drive/1H1u6qLbcO9R9IH
 
 Notice:
 
-- Patience: early stopping after … epochs
-- Weights: can be “yolov5s.pt” if training from scratch (second command); or custom weights (link to download pt weights: ) (first command)
-- Cfg: choose yolov5n or yolov5s (weights should be the same model if using custom weights)
+- ``--patience``: early stopping after … epochs (read more at yolov5)
+- Weights: custom ``.pt`` weight can be downloaded [here](#weights); COCO pretrained weights is given in yolov5
+- Cfg: choose yolov5n or yolov5s (weights should be of the same model if using custom weights)
 
 4. Export to onnx:
 
