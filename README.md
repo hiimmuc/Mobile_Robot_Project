@@ -58,7 +58,7 @@ $ python train.py --img 416 --batch 16 --epochs 100 --patience 25 --weights yolo
 ```
 
 Ref: [Yolov5](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) <br/>
-Notebook: [Google Colab](https://colab.research.google.com/drive/1H1u6qLbcO9R9IHFtKdIHDZQc1rxV1jno?usp=sharing)
+Notebook: [Google Colab](https://colab.research.google.com/drive/1ZuQaOmuwUDHt-nYs2oqj2y-uRcioVElh?usp=sharing)
 
 Notice:
 
